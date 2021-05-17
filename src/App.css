@@ -11,3 +11,8 @@
   border: 1px solid #222831;
   border-radius: 5px;
 }
+.github-url {
+  text-decoration: none;
+  color: #30475e;
+  margin: 0 0 0 250px;
+}

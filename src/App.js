@@ -15,6 +15,7 @@ function App() {
           </div>
         </div>
       </div>
+      <a href="https://github.com/T-allegro/weather-project-react" rel="noreferrer" target="_blank" className="github-url">Teresa Allegro_Github repository</a>
     </div>
   );
 }
