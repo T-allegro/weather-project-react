@@ -1,0 +1,13 @@
+h3 {
+    color: #222831;
+    font-size: 15px;
+  }
+  .weather-forecast {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .weather-forecast-temperature {
+    color: #30475e;
+    font-size: 12px;
+  }
+  
