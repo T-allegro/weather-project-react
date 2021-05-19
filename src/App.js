@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import Form from "./Form";
 import Current from "./Current";
 import Forecast from "./Forecast";
