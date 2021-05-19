@@ -11,7 +11,7 @@ export default function App() {
         <div className="weather-app-wrapper">
           <div className="weather-app">
             <Form />
-            <Current />
+            <Current defaultCity="Matosinhos"/>
             <Forecast />
           </div>
         </div>
