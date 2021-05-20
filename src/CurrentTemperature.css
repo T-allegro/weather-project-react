@@ -1,0 +1,10 @@
+.temperature {
+    font-size: 70px;
+    color: #222831;
+    text-align: center;
+    line-height: 150px;
+  }
+
+.units {
+    color: #222831;
+  }
