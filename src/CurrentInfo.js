@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import CurrentTemperature from "./CurrentTemperature";
 import "./CurrentInfo.css";
 
 export default function CurrentInfo (props) {
@@ -24,8 +25,7 @@ export default function CurrentInfo (props) {
             </ul>
           </div>
           <div className="col-4">
-            <strong id="temperature">{Math.round(props.data.temperature)}</strong>
-            <span className="units"> ºC|ºF</span>
+            <CurrentTemperature celcius={props.data.temperature} />
           </div>
           <div className="col-4">
             <div className="specifications">
