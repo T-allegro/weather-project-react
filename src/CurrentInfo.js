@@ -5,7 +5,7 @@ import "./CurrentInfo.css";
 export default function CurrentInfo (props) {
     return (
         <div>
-            <h1 id="city">{props.data.city.toUpperCase()}</h1>
+        <h1 id="city">{props.data.city.toUpperCase()}</h1>
         <h2 id="date">
           <FormattedDate date={props.data.date} />
         </h2>
