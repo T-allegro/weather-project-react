@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import axios from "axios";
+import FormattedDate from "./FormattedDate";
 import "./Current.css";
 
 export default function Current(props) {
@@ -8,7 +9,7 @@ export default function Current(props) {
     setCurrentData({
       ready:true,
       city:response.data.name,
-      date:"Friday, 23 Apr 15:25",
+      date:new Date (response.data.dt*1000),
       temperature: response.data.main.temp,
       description:response.data.weather[0].description,
       wind:response.data.wind.speed,
@@ -23,7 +24,9 @@ export default function Current(props) {
     return (
       <div>
         <h1 id="city">{currentData.city.toUpperCase()}</h1>
-        <h2 id="date">{currentData.date}</h2>
+        <h2 id="date">
+          <FormattedDate date={currentData.date} />
+        </h2>
         <div className="row">
           <div className="col-4">
             <ul>
