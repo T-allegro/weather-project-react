@@ -1,7 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import Form from "./Form";
-import Current from "./Current";
+import Weather from "./Weather";
 import Forecast from "./Forecast";
 
 export default function App() {
@@ -10,8 +9,7 @@ export default function App() {
       <div className="container">
         <div className="weather-app-wrapper">
           <div className="weather-app">
-            <Form />
-            <Current defaultCity="Matosinhos"/>
+            <Weather defaultCity="Matosinhos"/>
             <Forecast />
           </div>
         </div>
