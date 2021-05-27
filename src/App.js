@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Weather from "./Weather";
-import Forecast from "./Forecast";
+
 
 export default function App() {
   return (
@@ -10,7 +10,6 @@ export default function App() {
         <div className="weather-app-wrapper">
           <div className="weather-app">
             <Weather defaultCity="Matosinhos"/>
-            <Forecast />
           </div>
         </div>
       </div>
