@@ -30,6 +30,11 @@ export default function Weather(props) {
     setCity(event.target.value);
   }
 
+  function currentLocation(event) {
+    event.preventDefault();
+    navigator.geolocation.getCurrentPosition();
+  }
+
   function search(){
     const apiKey = "f2307cbce532cfdeb3168c7d625e3421"
     let units ="metric";
@@ -61,7 +66,7 @@ export default function Weather(props) {
             />
           </div>
           <div className="col-3">
-            <button
+            <button onClick={currentLocation}
               type="button"
               id="current-city"
               className="btn btn-outline-dark"
