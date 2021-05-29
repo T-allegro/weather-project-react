@@ -1,4 +1,4 @@
-h1 {
+  h1 {
     font-size: 60px;
     font-weight: bold;
     color: #222831;
@@ -28,17 +28,11 @@ h1 {
     color: #222831;
     line-height: 40px;
   }
-  #description {
+  .description {
     color: #222831;
     text-align: center;
     padding-right: 40px;
     text-transform: capitalize;
-  }
-  #temperature {
-    font-size: 70px;
-    color: #222831;
-    text-align: center;
-    line-height: 150px;
   }
   
   
